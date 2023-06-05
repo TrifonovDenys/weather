@@ -1,1 +1,0 @@
-{"mappings":"AAEAA,QAAQC,IAAIC","sources":["src/index.js"],"sourcesContent":["import './css/style.css';\n\nconsole.log(getCurrentPosition());\n"],"names":["console","log","getCurrentPosition"],"version":3,"file":"index.4037ca05.js.map"}

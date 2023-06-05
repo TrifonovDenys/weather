@@ -1,0 +1,2 @@
+const e=new URLSearchParams({lat:1,lon:1,exclude:"curent",units:"metric",appid:"954f5a062d83196561f460329e10940e"});fetch(`https://api.openweathermap.org/data/3.0/onecall?${e}`).then((e=>e.json())).then((e=>console.log(e)));document.querySelector(".qwe");function o(e){let o=e.coords.latitude,t=e.coords.longitude;return console.log(o),console.log(t),{latitude:o,longitude:t}}navigator.geolocation.getCurrentPosition(o);
+//# sourceMappingURL=index.0c20bad3.js.map
