@@ -1,2 +1,0 @@
-!function(){var o=new URLSearchParams({lat:1,lon:1,exclude:"curent",units:"metric",appid:"954f5a062d83196561f460329e10940e"});fetch("".concat("https://api.openweathermap.org/data/3.0/onecall","?").concat(o)).then((function(o){return o.json()})).then((function(o){return console.log(o)}));document.querySelector(".qwe");function e(o){var e=o.coords.latitude,t=o.coords.longitude;return console.log(e),console.log(t),{latitude:e,longitude:t}}navigator.geolocation.getCurrentPosition(e)}();
-//# sourceMappingURL=index.977ec9ec.js.map
